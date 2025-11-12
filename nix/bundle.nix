@@ -13,7 +13,7 @@ pkgs.stdenvNoCC.mkDerivation {
   inherit src name;
 
   nativeBuildInputs = with pkgs; [
-    wrapGAppsHook
+    wrapGAppsHook3
     gobject-introspection
     gnused
     self.packages.${system}.ags
